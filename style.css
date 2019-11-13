@@ -1,19 +1,57 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .box {
-    float: left;
-    border: 2px solid red;
-    width: 12.5%;
-    height: 12.5%;
-    text-align: center;
+body {
     margin: 0;
+    padding: 0;
   }
   
-  .boxes {
-    width: 80%;
-    height: 90vh;
-    outline: 2px solid green;
+  .logo {
+    float: left;
+    width: 200px;
+    height: 70px;
+  }
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
     margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    background-color: #352d2f;
+    height: 70px;
+    width: 100%;
+    text-align:center;
+  }
+  .navigation-bar img{
+  float:left;
+  }
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  .navigation-bar li a {
+    color: rgb(218, 204, 204);
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+  
+  #menu {
+    float: right;
   }
