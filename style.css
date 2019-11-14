@@ -17,16 +17,21 @@ li {
   display: inline-block;
   color: lightgray;
   padding: 40px;
-  
 
+}
+
+figure {
+  text-align: center;
+  display: block;
+  margin: 30px;
 }
 
 img {
-  margin:15px;
+  margin: 15px;
 }
 
 #featuredsectionbanner  {
-  float:left;
+  float: left;
   border: black, solid, 3px;
 }
 
